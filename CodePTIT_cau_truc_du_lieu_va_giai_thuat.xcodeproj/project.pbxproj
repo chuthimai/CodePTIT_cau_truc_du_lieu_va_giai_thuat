@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A408AA0C298E9FD6004C81E1 /* DSA06024_sap_xep_chon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A408AA0B298E9FD6004C81E1 /* DSA06024_sap_xep_chon.cpp */; };
+		A408AA0E298EA221004C81E1 /* DSA06025_sap_xep_chen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A408AA0D298EA221004C81E1 /* DSA06025_sap_xep_chen.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		A408AA01298E9F94004C81E1 /* CodePTIT_cau_truc_du_lieu_va_giai_thuat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodePTIT_cau_truc_du_lieu_va_giai_thuat; sourceTree = BUILT_PRODUCTS_DIR; };
-		A408AA0B298E9FD6004C81E1 /* DSA06024_sap_xep_chon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DSA06024_sap_xep_chon.cpp; sourceTree = "<group>"; };
+		A408AA0D298EA221004C81E1 /* DSA06025_sap_xep_chen.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DSA06025_sap_xep_chen.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 		A408A9F8298E9F94004C81E1 = {
 			isa = PBXGroup;
 			children = (
-				A408AA0B298E9FD6004C81E1 /* DSA06024_sap_xep_chon.cpp */,
+				A408AA0D298EA221004C81E1 /* DSA06025_sap_xep_chen.cpp */,
 				A408AA02298E9F94004C81E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A408AA0C298E9FD6004C81E1 /* DSA06024_sap_xep_chon.cpp in Sources */,
+				A408AA0E298EA221004C81E1 /* DSA06025_sap_xep_chen.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
