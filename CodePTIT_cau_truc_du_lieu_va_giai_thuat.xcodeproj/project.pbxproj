@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A408AA10298EAA7F004C81E1 /* demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A408AA0F298EAA7F004C81E1 /* demo.cpp */; };
-		A408AA1E298EB5D9004C81E1 /* DSA06027_sap_xep_doi_cho_truc_tiep_liet_ke_nguoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A408AA1D298EB5D9004C81E1 /* DSA06027_sap_xep_doi_cho_truc_tiep_liet_ke_nguoc.cpp */; };
+		A408AA24298F4FB6004C81E1 /* CTDL_001_thuat_toan_sinh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A408AA23298F4FB6004C81E1 /* CTDL_001_thuat_toan_sinh.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,7 @@
 /* Begin PBXFileReference section */
 		A408AA01298E9F94004C81E1 /* CodePTIT_cau_truc_du_lieu_va_giai_thuat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodePTIT_cau_truc_du_lieu_va_giai_thuat; sourceTree = BUILT_PRODUCTS_DIR; };
 		A408AA0F298EAA7F004C81E1 /* demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo.cpp; sourceTree = "<group>"; };
-		A408AA1D298EB5D9004C81E1 /* DSA06027_sap_xep_doi_cho_truc_tiep_liet_ke_nguoc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DSA06027_sap_xep_doi_cho_truc_tiep_liet_ke_nguoc.cpp; sourceTree = "<group>"; };
+		A408AA23298F4FB6004C81E1 /* CTDL_001_thuat_toan_sinh.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CTDL_001_thuat_toan_sinh.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 		A408A9F8298E9F94004C81E1 = {
 			isa = PBXGroup;
 			children = (
-				A408AA1D298EB5D9004C81E1 /* DSA06027_sap_xep_doi_cho_truc_tiep_liet_ke_nguoc.cpp */,
+				A408AA23298F4FB6004C81E1 /* CTDL_001_thuat_toan_sinh.cpp */,
 				A408AA0F298EAA7F004C81E1 /* demo.cpp */,
 				A408AA02298E9F94004C81E1 /* Products */,
 			);
@@ -115,7 +115,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A408AA10298EAA7F004C81E1 /* demo.cpp in Sources */,
-				A408AA1E298EB5D9004C81E1 /* DSA06027_sap_xep_doi_cho_truc_tiep_liet_ke_nguoc.cpp in Sources */,
+				A408AA24298F4FB6004C81E1 /* CTDL_001_thuat_toan_sinh.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
