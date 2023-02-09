@@ -38,7 +38,7 @@ void oneTime(){
             Array added_arr;
             added_arr.arr = arr;
             all_step.push_back(added_arr);
-        }
+        }else break;
     }
     
     int total_step = all_step.size();
