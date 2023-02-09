@@ -34,7 +34,7 @@ int main(){
         if(old_arr != arr){
             step++;
             print_arr(step, arr);
-        }
+        }else break;
     }
     
 }
