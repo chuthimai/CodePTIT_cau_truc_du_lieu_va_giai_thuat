@@ -1,5 +1,5 @@
 //
-//  sinh_hoan_vi.cpp
+//  DSA01022_so_thu_tu_hoan_vi.cpp
 //  CodePTIT_cau_truc_du_lieu_va_giai_thuat
 //
 //  Created by Chu Mai on 16/02/2023.
@@ -36,14 +36,25 @@ void sinh(vector<int> &arr){
 void oneTime(){
     int n;
     cin>>n;
-    vector<int> arr;
+    vector<int> arr, begin_arr;
     for(int i=0; i<n; i++){
         int a;
         cin>>a;
         arr.push_back(a);
+        begin_arr.push_back(i+1);
     }
-    sinh(arr);
-    in(arr);
+    
+    int count = 1;
+    bool is_on = true;
+    while(is_on){
+        if(arr == begin_arr){
+            printf("%d\n", count);
+            break;
+        }
+        sinh(begin_arr);
+        count++;
+    }
+    
 }
 
 int main(){
@@ -51,5 +62,6 @@ int main(){
     cin>>n;
     for(int i=0; i<n; i++) oneTime();
 }
+
 
 
