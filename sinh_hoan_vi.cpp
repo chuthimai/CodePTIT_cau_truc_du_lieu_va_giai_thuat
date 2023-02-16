@@ -22,10 +22,11 @@ void sinh(vector<int> &arr){
             break;
         }
     }
-    int min = INT_MAX;
+    int min = INT_MAX, index;
     for(; j>i; j--){
         if(min>arr[j] && arr[j]>arr[i]){
-            min = j;
+            min = arr[j];
+            index = j;
         }
     }
     swap(arr[i], arr[min]);
