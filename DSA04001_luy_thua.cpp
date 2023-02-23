@@ -6,21 +6,28 @@
 //
 
 #include <bits/stdc++.h>
-#define MOD 1e9+7
+#define MOD 1000000007
 using namespace std;
 
-long long power(int n, long long k){
+long long power(long long n, long long k){
     if(k==0) return 1;
-    long long x = power(n, k/2);
-    if(k%2==0) return x*x%MOD;
-    else n*x*x%MOD;
+    long long x = power(n, k/2) % MOD;
+    if(k%2 == 0) return (x * x) % MOD;
+    else return n*((x*x)%MOD) % MOD;
+}
+
+
+void oneTime(){
+    int n, k;
+    cin>>n>>k;
+    cout<<power(n, k)<<endl;
 }
 
 int main(){
-    
+    int n;
+    cin>>n;
+    for(int i=0; i<n; i++) oneTime();
 }
-
-
 
 
 
