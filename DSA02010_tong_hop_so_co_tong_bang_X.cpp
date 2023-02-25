@@ -15,13 +15,13 @@ vector<vector<int>> save;
 
 
 void in(int i){
-    printf("{");
+    printf("[");
     for (int j=0; j<=i; j++) {
         if(j!=i) printf("%d ", C[j]);
         else printf("%d", C[j]);
         
     }
-    printf("} ");
+    printf("]");
 }
 
 void quay_lui(int i, int s){
