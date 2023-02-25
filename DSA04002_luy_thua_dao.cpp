@@ -22,19 +22,14 @@ long long power(long long n, long long k){
     if (k==0) return 1;
     long long x = power(n, k/2) % MOD;
     if(k%2 == 0) return (x * x) % MOD;
-    else return (((x*x)%MOD) * n) % MOD;
+    else return n*((x*x)%MOD) % MOD;
 }
 
 
 void oneTime(){
     long long n;
     cin>>n;
-    stringstream ss;
-    ss << n;
-    string str = ss.str();
-    reverse(str.begin(), str.end());
-    long long r = stol(str);
-    cout<<power(n, r)<<'\n';
+    cout<<power(n, reverse(n))<<endl;
 }
 
 int main(){
