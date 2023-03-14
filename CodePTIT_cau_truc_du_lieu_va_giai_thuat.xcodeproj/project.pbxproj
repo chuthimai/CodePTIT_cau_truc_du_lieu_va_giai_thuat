@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A408AA10298EAA7F004C81E1 /* demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A408AA0F298EAA7F004C81E1 /* demo.cpp */; };
-		A4DB049729A7067900C5E0E8 /* quan_hau.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DB049629A7067900C5E0E8 /* quan_hau.cpp */; };
-		A4DB049929A70AE300C5E0E8 /* DSA02032_to_hop_so_co_tong_bang_X.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DB049829A70AE300C5E0E8 /* DSA02032_to_hop_so_co_tong_bang_X.cpp */; };
-		A4DB049B29A716AE00C5E0E8 /* DSA04001_luy_thua.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4DB049A29A716AE00C5E0E8 /* DSA04001_luy_thua.cpp */; };
+		A4657A8129B042B700EBF8B9 /* dem_ky_tu_B.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4657A8029B042B700EBF8B9 /* dem_ky_tu_B.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,9 +26,7 @@
 /* Begin PBXFileReference section */
 		A408AA01298E9F94004C81E1 /* CodePTIT_cau_truc_du_lieu_va_giai_thuat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodePTIT_cau_truc_du_lieu_va_giai_thuat; sourceTree = BUILT_PRODUCTS_DIR; };
 		A408AA0F298EAA7F004C81E1 /* demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = demo.cpp; sourceTree = "<group>"; };
-		A4DB049629A7067900C5E0E8 /* quan_hau.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quan_hau.cpp; sourceTree = "<group>"; };
-		A4DB049829A70AE300C5E0E8 /* DSA02032_to_hop_so_co_tong_bang_X.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DSA02032_to_hop_so_co_tong_bang_X.cpp; sourceTree = "<group>"; };
-		A4DB049A29A716AE00C5E0E8 /* DSA04001_luy_thua.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DSA04001_luy_thua.cpp; sourceTree = "<group>"; };
+		A4657A8029B042B700EBF8B9 /* dem_ky_tu_B.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dem_ky_tu_B.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,9 +43,7 @@
 		A408A9F8298E9F94004C81E1 = {
 			isa = PBXGroup;
 			children = (
-				A4DB049A29A716AE00C5E0E8 /* DSA04001_luy_thua.cpp */,
-				A4DB049829A70AE300C5E0E8 /* DSA02032_to_hop_so_co_tong_bang_X.cpp */,
-				A4DB049629A7067900C5E0E8 /* quan_hau.cpp */,
+				A4657A8029B042B700EBF8B9 /* dem_ky_tu_B.cpp */,
 				A408AA0F298EAA7F004C81E1 /* demo.cpp */,
 				A408AA02298E9F94004C81E1 /* Products */,
 			);
@@ -121,9 +115,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A408AA10298EAA7F004C81E1 /* demo.cpp in Sources */,
-				A4DB049B29A716AE00C5E0E8 /* DSA04001_luy_thua.cpp in Sources */,
-				A4DB049729A7067900C5E0E8 /* quan_hau.cpp in Sources */,
-				A4DB049929A70AE300C5E0E8 /* DSA02032_to_hop_so_co_tong_bang_X.cpp in Sources */,
+				A4657A8129B042B700EBF8B9 /* dem_ky_tu_B.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
